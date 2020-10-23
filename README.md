@@ -6,7 +6,7 @@ This serves as a guide to deploy the Teeport platform and test the basic feature
 
 Check if the **conda** and **docker** environments are available on the computer.
 
-I use conda 4.8.3 and docker 1.12.0., I didn't test if the slightly old versions work, but I assume so since I didn't use any specific new features of conda and docker.
+I use conda 4.8.3 and docker 19.03.13, I didn't test if the slightly old versions work, but I assume so since I didn't use any specific new features of conda and docker.
 
 ## Build and run the backend service
 
@@ -105,7 +105,7 @@ conda install -c conda-forge jupyterlab
 
 ### Clone the Teeport test notebooks/scripts
 
-Actually you might have already done this, since this document itself is the readme of the repo to be clone lol:
+Actually you might have already done this, since this document itself is the readme of the repo to be cloned lol:
 
 ```bash
 git clone https://github.com/SPEAR3-ML/teeport-test.git
