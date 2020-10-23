@@ -124,15 +124,15 @@ jupyter lab
 
 In the newly opened tab in your browser, double click the `basic-tests.ipynb` file in the file panel to open it in the Lab. Then just follow the instructions in the notebook to get the basic ideas of how to use Teeport.
 
-### [Optional] Build and run the frontend service
+## [Optional] Build and run the frontend service
 
-#### Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/SPEAR3-ML/teeport-frontend.git
 ```
 
-#### Build the docker image
+### Build the docker image
 
 Go to the project directory:
 
@@ -196,7 +196,7 @@ Then build the docker image:
 docker build -f Dockerfile.lan -t teeport/frontend .
 ```
 
-#### Run the docker image
+### Run the docker image
 
 ```bash
 docker run -d -p 3000:3000 --name teeport-frontend --restart always teeport/frontend
