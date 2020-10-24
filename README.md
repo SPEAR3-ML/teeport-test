@@ -205,3 +205,9 @@ docker run -d -p 3000:3000 --name teeport-frontend --restart always teeport/fron
 Now the Teeport frontend should be accessible at port 3000. To verify that, open your favorite browser and go to [http://localhost:3000/tasks](http://localhost:3000/tasks). If you're going though this document step by step, you should be able to see the tasks created when you played with the `basic-tests.ipynb` in the last section.
 
 Hover your mouse on the status bar (where shows the time created) of each task card will give you more options to interact with the task. Say, click on the Enter button to access the monitors of that task, you'll see the evaluation history and stuff. Try to relate the plots to what you did in the notebook to get more feelings about the mechanism of Teeport.
+
+## [Optional] Test Teeport w/ GUI
+
+### Run the GUI test notebooks in Jupyter Lab
+
+In the Jupyter Lab tab in your browser, double click the `gui-tests.ipynb` file in the file panel to open it in the Lab. Then just follow the instructions in the notebook to test the GUI functionalities of Teeport.
